@@ -4,6 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'sonatribe-ui',
     environment: environment,
+    podModulePrefix: 'sonatribe-ui/pods',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
